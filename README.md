@@ -3,10 +3,10 @@ adbcap
 
 View and capture android screen via adb screencap function. Store the captured stream in advance, for futher video compilation.
 
-It is written on PyGtk and utilize adb tool from Android SDK.
+It is written on PyGtk and utilize adb tool from [Android SDK](http://developer.android.com/sdk/index.html).
 
 Basic usage
-___________
+-----------
 
 ```
 Usage: adbcap.py [options]
