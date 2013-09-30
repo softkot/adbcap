@@ -24,12 +24,12 @@ Options:
   --jpg-stream=STREAM   write a JPG stream to file for later ffmpeg/avconv processing
 ```
 
-For example you can start 
+For example you can start the tool to view and record the session 
 ```
 adbcap.py --jpg-stream=stream.jpgs
 ```
 
-View and record the session and convert it into the regulat MP4 via [ffmpeg](http://www.ffmpeg.org/)/[libav](http://libav.org/) tools.
+And convert it right after into the regular MP4 via [ffmpeg](http://www.ffmpeg.org/) or [libav](http://libav.org/) tools.
 
 ```
 avconv -y -f image2pipe -r 2 -vcodec mjpeg -i stream.jpgs -r 10 video.mp4
