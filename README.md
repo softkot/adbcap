@@ -5,6 +5,8 @@ View and capture android screen via adb screencap function. Store the captured s
 
 It is written on PyGtk and utilize adb tool from [Android SDK](http://developer.android.com/sdk/index.html).
 
+Due to android platform to support adb screencap method, it works with most android 4.x devices connected with adb in developer mode.
+
 Basic usage
 -----------
 
